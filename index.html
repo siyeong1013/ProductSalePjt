@@ -1,61 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Document</title>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
 
-        <link
-            href="./CSS/index.css"
-            rel="stylesheet"
-            type="text/css"
-        />
-    </head>
-    <body>
-        <div id="wrap">
-            <div class="title_wrap">Admin</div>
+    <link href="./CSS/index.css" rel="stylesheet" type="text/css">
 
-            <div class="menu_wrap">
-                <a
-                    class="add_list"
-                    href="#none"
-                    >상품 판매 등록</a
-                >
-                <a
-                    class="print_list"
-                    href="#none"
-                    >판매 리스트 화면</a
-                >
-            </div>
+</head>
+<body>
+    <div id="wrap">
+        <div class="title_wrap">
+            Admin
+        </div> 
 
-            <div class="addSale_wrap">
-                <input
-                    type="text"
-                    name="c_id"
-                    placeholder="Input Customer ID"
-                />
-                <br />
-                <input
-                    type="text"
-                    name="p_no"
-                    placeholder="Input Product No"
-                />
-                <br />
-                <input
-                    type="text"
-                    name="s_price"
-                    placeholder="Input Sales Price"
-                />
-                <br />
-                <input
-                    type="button"
-                    value="상품 판매 등록"
-                />
-                <input
-                    type="button"
-                    value="초기화"
-                />
-            </div>
+        <div class="menu_wrap">
+            <a class="add_list" href="#none">상품 판매 등록</a>
+            <a class="print_list" href="#none">판매 리스트 화면</a>
+        </div>
 
+        <div class="addSale_wrap">
+            <input type="text" name="c_id" placeholder="Input Customer ID">
+            <br>
+            <input type="text" name="p_no" placeholder="Input Product No">
+            <br>
+            <input type="text" name="s_price" placeholder="Input Sales Price">
+            <br>
+            <input type="button" id="product_btn" value="상품 판매 등록">
+            <input type="button" id="clear_btn" value="초기화">
+        </div>
+
+<<<<<<< main
         <div class="addSale_wrap">
             <input type="text" name="c_id" placeholder="Input Customer ID">
             <br>
@@ -90,6 +64,33 @@
                     <tbody class="tbody"></tbody>
                 </table>
             </div>
+=======
+        <div class="saleProductList_wrap">
+            <table class="productList">
+                <thead>
+                    <tr>
+                        <th>고객계정</th>
+                        <th>고객이름</th>
+                        <th>고객메일</th>
+                        <th>고객연락처</th>
+                        <th>상품번호</th>
+                        <th>상품이름</th>
+                        <th>상품가격</th>
+                        <th>상품수량</th>
+                        <th>제조사번호</th>
+                        <th>제조사이름</th>
+                        <th>제조사주소</th>
+                        <th>제조사연락처</th>
+                        <th>제조사관리자</th>
+                        <th>판매번호</th>
+                        <th>판매가격</th>
+                        <th>판매날짜</th>
+                    </tr>
+                </thead>
+            </table>
+>>>>>>> ㅇㄴㅇㅁ
         </div>
-    </body>
+
+    </div>
+</body>
 </html>

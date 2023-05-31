@@ -55,7 +55,7 @@ a:hover {
     border-radius: 5px;
 }
 
-#wrap > div.addSale_wrap input[type=button] {
+#wrap > div.addSale_wrap input[type="button"] {
     text-align: center;
     width: 110px;
     cursor: pointer;

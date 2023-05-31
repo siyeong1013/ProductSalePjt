@@ -13,7 +13,7 @@ saleDB에 (고객 아이디, 상품번호, 판매금액) 데이터 넣기
 */
 const saleBtn = () => {
     
-    let saleBtn = document.querySelector('addSale_wrap input:nth-child(4)');
+    let saleBtn = document.querySelector('#product_btn');
     saleBtn.addEventListener('click', function () {
     console.log('saleBtn CLICKED!!')
         /*

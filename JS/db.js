@@ -8,7 +8,7 @@ const searchCustomer = () => {
   console.log("searchCustomer() CALLED!!");
 
   //customerDumy를 customerDB에 저장
-  customerDB.set();
+  customerDB.set(arrInDB(arrcustomerDumy));
 };
 /* customerDB END */
 
@@ -17,7 +17,7 @@ const searchProduct = () => {
   console.log("searchProduct() CALLED!!");
 
   //productDumy를 productDB에 저장
-  productDB.set();
+  productDB.set(arrInDB(arrproductDumy));
 };
 /* productDB END */
 
@@ -26,6 +26,6 @@ const searchMmanufacturer = () => {
   console.log("searchMmanufacturer() CALLED!!");
 
   // manufactureDumy를 manufactureDB에 저장
-  manufactureDB.set();
+  manufactureDB.set(arrInDB(arrmanufactureDumy));
 };
 /* manufactureDB END */
